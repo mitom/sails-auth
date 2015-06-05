@@ -38,6 +38,10 @@ $ sails generate auth-api
 
   AuthController: {
     '*': [ 'passport' ]
+  },
+
+  UserController: {
+    'create': true
   }
 ```
 
